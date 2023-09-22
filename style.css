@@ -1,3 +1,28 @@
-.body{
+body{
     font-family: 'Rubik', sans-serif;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,0.5578606442577031) 0%, rgba(0,134,255,0.4990371148459384) 100%);
+}
+
+.bg-photo{
+    padding-top: 50px; background-image: url(images/bg-transparent.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.bg-photo2{
+    padding-top: 50px; background-image: url(images/bg-transparent2.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#bg-gradient{
+    background: rgb(12,17,37);
+    background: radial-gradient(circle, rgba(12,17,37,1) 0%, rgba(11,23,43,1) 100%);
+}
+
+.line{
+    width: 1500px;
+    height: 1px;
+    background-color: grey;
 }
